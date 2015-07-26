@@ -12,7 +12,7 @@ angular.module('copayApp.services').factory('configService', function(storageSer
 
     // Bitcore wallet service URL
     bws: {
-      url: 'http://192.168.1.110:3232/bws/api',
+      url: 'https://bws.zoomcoin.co/bws/api',
     },
 
     // wallet default config
