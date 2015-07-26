@@ -7,7 +7,7 @@ angular.element(document).ready(function() {
     angular.bootstrap(document, ['copayApp']);
   };
 
-  var handleBitcoinURI = function(url) {
+  var handleZoomURI = function(url) {
     if (!url) return;
     setTimeout(function() {
       window.location = '#/uri-payment/' + url;
@@ -55,18 +55,18 @@ angular.element(document).ready(function() {
         navigator.splashscreen.hide();
       }, 2000);
 
-      window.plugins.webintent.getUri(handleBitcoinURI);
-      window.plugins.webintent.onNewIntent(handleBitcoinURI);
-      window.handleOpenURL = handleBitcoinURI;
+      window.plugins.webintent.getUri(handleZoomURI);
+      window.plugins.webintent.onNewIntent(handleZoomURI);
+      window.handleOpenURL = handleZoomURI;
 
       startAngular();
     }, false);
   } else {
 
     try {
-      window.handleOpenURL = handleBitcoinURI;
-      window.plugins.webintent.getUri(handleBitcoinURI);
-      window.plugins.webintent.onNewIntent(handleBitcoinURI);
+      window.handleOpenURL = handleZoomURI;
+      window.plugins.webintent.getUri(handleZoomURI);
+      window.plugins.webintent.onNewIntent(handleZoomURI);
     } catch (e) {}
 
     startAngular();

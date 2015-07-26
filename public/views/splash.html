@@ -2,14 +2,12 @@
 	<div class="row">
 		<div class="medium-6 large-4 medium-centered small-centered large-centered columns">
 			<div class="p20">
-				<span class="text-bold size-16 text-white" translate>WELCOME TO COPAY</span>
-				<p class="text-gray size-14 m0 text-light" translate>A multisignature bitcoin wallet</p>
+				<span class="text-bold size-16 text-white" translate>Zoom</span>
+				<p class="text-gray size-14 m0 text-light" translate>A multisignature Zoom wallet</p>
 			</div>
 		</div>
 	</div>
-	<div class="gif-splash">
-		<img src="img/icon-splash.png" alt="icon" width="25%">
-	</div>
+	<div class="gif-splash"></div>
   <div class="text-center size-12 text-warning" ng-show="error && !creatingProfile">
     {{(error)|translate}}. <span translate>Retrying...</span>
   </div>
@@ -26,7 +24,7 @@
     </div>
   </div>
   <div class="row columns start-button" ng-show="!creatingProfile">
-    <button ng-click="create()" class="button black expand round size-12 text-spacing" translate> GET STARTED </button>  
+    <button ng-click="create()" class="button black expand round size-12 text-spacing" translate> GET STARTED </button>
     <p class="text-gray m5b size-12" translate>Already have a wallet?</p>
     <button  ng-click="create(true)" class="button round outline dark-gray tiny" translate>Import backup </button>
   </div>

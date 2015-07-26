@@ -32,7 +32,7 @@ angular.module('copayApp.controllers').controller('walletHomeController', functi
     var form = $scope.sendForm;
     if (form.address.$invalid) {
       self.resetForm();
-      self.error = gettext('Could not recognize a valid Bitcoin QR Code');
+      self.error = gettext('Could not recognize a valid Zoom QR Code');
     }
   });
 
@@ -438,7 +438,7 @@ angular.module('copayApp.controllers').controller('walletHomeController', functi
       if (isMobile.Android() || isMobile.Windows()) {
         window.ignoreMobilePause = true;
       }
-      window.plugins.socialsharing.share('bitcoin:' + addr, null, null, null);
+      window.plugins.socialsharing.share('zoom:' + addr, null, null, null);
     }
   };
 
@@ -961,7 +961,7 @@ angular.module('copayApp.controllers').controller('walletHomeController', functi
     if (this._paypro)
       return value;
 
-    if (value.indexOf('bitcoin:') === 0) {
+    if (value.indexOf('zoom:') === 0) {
       return this.setFromUri(value);
     } else if (/^https?:\/\//.test(value)) {
       return this.setFromPayPro(value);

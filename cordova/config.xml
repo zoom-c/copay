@@ -1,14 +1,14 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.bitpay.copay" 
+<widget id="ua.zoom.zoompay"
   version="1.1.2"
   android-versionCode="39"
   ios-CFBundleVersion="1.1.2">
-    <name>Copay</name>
+    <name>Zoom</name>
     <description>
-      A secure bitcoin wallet for friends and companies.
+      A secure Zoom wallet for friends and companies.
     </description>
-    <author email="support@bitpay.com" href="https://copay.io">
-        BitPay Inc.
+    <author email="support@zoomcoin.co" href="https://zoomcoin.co">
+        Zoom Developers
     </author>
     <content src="index.html" />
     <access origin="*" />

@@ -56,7 +56,7 @@ echo "Project directory is $PROJECT"
 if [ ! -d $PROJECT ]; then
   cd $BUILDDIR
   echo "${OpenColor}${Green}* Creating project... ${CloseColor}"
-  cordova create project com.bitpay.copay Copay
+  cordova create project ua.zoom.zoompay Zoom
   checkOK
 
   cd $PROJECT
@@ -210,5 +210,3 @@ if [ $CURRENT_OS == "WP8" ]; then
   cp -vf wp/Background.png $PROJECT/platforms/wp8/
   checkOK
 fi
-
-

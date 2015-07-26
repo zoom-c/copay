@@ -1,6 +1,6 @@
 
-<div 
-  class="topbar-container" 
+<div
+  class="topbar-container"
   ng-include="'views/includes/topbar.html'"
   ng-init="titleSection='Preferences'; closeToHome = true">
 </div>
@@ -34,20 +34,20 @@
       <span class="right text-gray">
         <i class="icon-arrow-right3 size-24 right"></i>
         <span ng-style="{'color':index.backgroundColor}">&block;</span>
-      </span>      
+      </span>
     </li>
     <li class="line-b p20">
       <span translate>Encrypt Private Key</span>
       <switch id="network-name" name="encrypt" ng-model="encrypt" class="green right"></switch>
   </li>
- 
+
     <h4 class="title m0">&nbsp;</h4>
     <li class="line-b p20" ng-click="$root.go('backup')">
-      <i class="icon-arrow-right3 size-24 right text-gray"></i>  
+      <i class="icon-arrow-right3 size-24 right text-gray"></i>
       <span translate>Backup</span>
     </li>
     <li class="line-b p20" ng-click="$root.go('preferencesAdvanced')">
-      <i class="icon-arrow-right3 size-24 right text-gray"></i>  
+      <i class="icon-arrow-right3 size-24 right text-gray"></i>
       <span translate>Advanced</span>
     </li>
   </ul>
@@ -78,14 +78,14 @@
       </span>
     </li>
     <li class="line-b p20" ng-click="$root.go('preferencesFee')">
-      <span translate>Bitcoin Network Fee Policy</span>
+      <span translate>Zoom Network Fee Policy</span>
       <span class="right text-gray">
         <i class="icon-arrow-right3 size-24 right"></i>
         {{preferences.feeName|translate}}
       </span>
     </li>
- 
-    
+
+
     <li class="line-b p20" ng-click="$root.go('preferencesBwsUrl')">
       <span>Bitcore Wallet Service</span>
       <span class="text-gray db">
@@ -94,10 +94,10 @@
         </span>
     </li>
     <li class="line-b p20" ng-click="$root.go('about')">
-      <i class="icon-arrow-right3 size-24 right text-gray"></i>  
-      <span translate>About Copay</span>
+      <i class="icon-arrow-right3 size-24 right text-gray"></i>
+      <span translate>About Zoom</span>
     </li>
- 
+
   </ul>
 
 </div>

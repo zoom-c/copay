@@ -31,8 +31,8 @@ msgid "A backup without its private key will allow the user to see the wallet ba
 msgstr "Una copia de seguridad sin la clave privada permitirá al usuario ver el balance del monedero, las transacciones y crear propuestas de gasto. Sin embargo, no podrá aprobar (firmar) propuestas."
 
 #: public/views/splash.html
-msgid "A multisignature bitcoin wallet"
-msgstr "Monedero multifirma de bitcoin"
+msgid "A multisignature Zoom wallet"
+msgstr "Monedero multifirma de Zoom"
 
 #: public/views/preferences.html
 msgid "About Copay"
@@ -129,20 +129,20 @@ msgid "Before receiving funds, it is highly recommended you backup your wallet k
 msgstr "Antes de recibir fondos, es altamente recomendable realizar una copia de seguridad."
 
 #: public/views/preferences.html
-msgid "Bitcoin Network Fee Policy"
-msgstr "Política de Costo de la Red Bitcoin"
+msgid "Zoom Network Fee Policy"
+msgstr "Política de Costo de la Red Zoom"
 
 #: public/views/paymentUri.html
-msgid "Bitcoin URI is NOT valid!"
-msgstr "¡Bitcoin URI no es válida!"
+msgid "Zoom URI is NOT valid!"
+msgstr "¡Zoom URI no es válida!"
 
 #: public/views/walletHome.html
-msgid "Bitcoin address"
-msgstr "Dirección bitcoin"
+msgid "Zoom address"
+msgstr "Dirección Zoom"
 
 #: public/views/preferencesFee.html
-msgid "Bitcoin transactions may include a fee collected by miners on the network. The higher the fee, the greater the incentive a miner has to include that transaction in a block. The ‘Emergency’ level should only be used when there is a network congestion."
-msgstr "Las transacciones de Bitcoin pueden incluir una tasa que es recaudada por los mineros de la red. Cuanto mayor sea la tasa, mayor será el incentivo de los mineros para incluir esa transacción en un bloque. El nivel 'Emergencia' debe ser utilizado solo cuando hay una congestión en la red."
+msgid "Zoom transactions may include a fee collected by miners on the network. The higher the fee, the greater the incentive a miner has to include that transaction in a block. The ‘Emergency’ level should only be used when there is a network congestion."
+msgstr "Las transacciones de Zoom pueden incluir una tasa que es recaudada por los mineros de la red. Cuanto mayor sea la tasa, mayor será el incentivo de los mineros para incluir esa transacción en un bloque. El nivel 'Emergencia' debe ser utilizado solo cuando hay una congestión en la red."
 
 #: public/views/modals/txp-details.html
 msgid "Broadcast Payment"
@@ -283,8 +283,8 @@ msgid "Could not join wallet:"
 msgstr "No se pudo unir al monedero:"
 
 #: src/js/controllers/walletHome.js
-msgid "Could not recognize a valid Bitcoin QR Code"
-msgstr "No se reconoció un código QR de Bitcoin válido"
+msgid "Could not recognize a valid Zoom QR Code"
+msgstr "No se reconoció un código QR de Zoom válido"
 
 #: src/js/controllers/walletHome.js
 msgid "Could not reject payment. Check you connection and try again"
@@ -627,8 +627,8 @@ msgid "Multisignature wallet"
 msgstr "Monedero multifirma"
 
 #: public/views/walletHome.html
-msgid "My Bitcoin address"
-msgstr "Mi dirección Bitcoin"
+msgid "My Zoom address"
+msgstr "Mi dirección Zoom"
 
 #: public/views/paymentUri.html
 msgid "Network"
@@ -1027,8 +1027,8 @@ msgid "The private key for this wallet is encrypted. Exporting a backup will kee
 msgstr "Este monedero tiene sus claves privadas encriptadas. Exportar una copia de seguridad mantendrá la clave privada encriptada en la copia de seguridad."
 
 #: public/views/disclaimer.html
-msgid "The software you are about to use functions as a free, open source, and multi-signature digital wallet. The software does not constitute an account where BitPay or other third parties serve as financial intermediaries or custodians of your bitcoin.  While the software has undergone beta testing and continues to be improved by feedback from the open-source user and developer community, we cannot guarantee that there will be no bugs in the software. You acknowledge that your use of this software is at your own discretion and in compliance with all applicable laws. You are responsible for safekeeping your passwords, private key pairs, PINs and any other codes you use to access the software. IF YOU LOSE ACCESS TO YOUR COPAY WALLET OR YOUR ENCRYPTED PRIVATE KEYS AND YOU HAVE NOT SEPARATELY STORED A BACKUP OF YOUR WALLET AND CORRESPONDING PASSWORD, YOU ACKNOWLEDGE AND AGREE THAT ANY BITCOIN YOU HAVE ASSOCIATED WITH THAT COPAY  WALLET WILL BECOME INACCESSIBLE. All transaction requests are irreversible.  The authors of the software, employees and affiliates of Bitpay, copyright holders, and BitPay, Inc. cannot retrieve your private keys or passwords if you lose or forget them and cannot guarantee transaction confirmation as they do not have control over the Bitcoin network. To the fullest extent permitted by law, this software is provided “as is” and no representations or warranties can be made of any kind, express or implied, including but not limited to the warranties of merchantability, fitness or a particular purpose and noninfringement. You assume any and all risks associated with the use of the software. In no event shall the authors of the software, employees and affiliates of Bitpay, copyright holders, or BitPay, Inc. be held liable for any claim, damages or other liability, whether in an action of contract, tort, or otherwise, arising from, out of or in connection with the software. We reserve the right to modify this disclaimer from time to time."
-msgstr "El software que va a utilizar es un monedero digital de código abierto y multi-firmas. El software no constituye una cuenta donde BitPay u otras terceras partes sirven como intermediarios financieros o custodios de su bitcoin. Mientras que el software ha sido objeto de pruebas beta y continúa siendo mejorada por los comentarios de los usuarios de código abierto y la comunidad de desarrolladores, no podemos garantizar que no habrá errores en el software. Usted reconoce que el uso de este software es bajo tu propia responsabilidad y en cumplimiento con todas las leyes aplicables. Usted es responsable de la custodia de sus contraseñas, pares de claves privadas, PIN y cualquier otro código que se utiliza para acceder al software. SI UD. PIERDE ACCESO A SU MONEDERO COPAY O A SUS CLAVES PRIVADAS ENCRIPTADAS Y NO HA GUARDADO POR SEPARADO UNA COPIA DE SEGURIDAD DE SU MONEDERO Y CONTRASEÑA CORRESPONDIENTES, USTED RECONOCE Y ACEPTA QUE CUALQUIER BITCOIN QUE HA ASOCIADO CON ESE MONEDERO COPAY SERÁ INACCESIBLE. Todas las solicitudes de transacción son irreversibles. Los autores de los software, empleados y afiliados de Bitpay, los titulares de derechos de autor, y BitPay, Inc. no pueden recuperar sus claves privadas o contraseñas si se pierde o se olvida de ellos y no se puede garantizar la confirmación de la transacción, ya que no tienen control sobre la red Bitcoin. En la máxima medida permitida por la ley, este software se proporciona \"tal cual\" y no asume la responsabilidad ni ofrece garantías de ningún tipo, expresa o implícita, incluyendo, pero no limitado a las garantías comerciales, de conveniencia o a un propósito particular. Usted asume todos los riesgos asociados con el uso del software. En ningún caso los autores, empleados y afiliados de Bitpay, los titulares de derechos de autor, o BitPay, Inc. serán declarados responsables de los reclamos, daños o cualquier otra responsabilidad, ya sea en una acción de contrato, agravio o de otra manera, que surja fuera de la conexión con el software. Nos reservamos el derecho a modificar el presente aviso legal de vez en cuando.<br><br>The software you are about to use functions as a free, open source, and multi-signature digital wallet. The software does not constitute an account where BitPay or other third parties serve as financial intermediaries or custodians of your bitcoin.  While the software has undergone beta testing and continues to be improved by feedback from the open-source user and developer community, we cannot guarantee that there will be no bugs in the software. You acknowledge that your use of this software is at your own discretion and in compliance with all applicable laws. You are responsible for safekeeping your passwords, private key pairs, PINs and any other codes you use to access the software. IF YOU LOSE ACCESS TO YOUR COPAY WALLET OR YOUR ENCRYPTED PRIVATE KEYS AND YOU HAVE NOT SEPARATELY STORED A BACKUP OF YOUR WALLET AND CORRESPONDING PASSWORD, YOU ACKNOWLEDGE AND AGREE THAT ANY BITCOIN YOU HAVE ASSOCIATED WITH THAT COPAY  WALLET WILL BECOME INACCESSIBLE. All transaction requests are irreversible.  The authors of the software, employees and affiliates of Bitpay, copyright holders, and BitPay, Inc. cannot retrieve your private keys or passwords if you lose or forget them and cannot guarantee transaction confirmation as they do not have control over the Bitcoin network. To the fullest extent permitted by law, this software is provided “as is” and no representations or warranties can be made of any kind, express or implied, including but not limited to the warranties of merchantability, fitness or a particular purpose and noninfringement. You assume any and all risks associated with the use of the software. In no event shall the authors of the software, employees and affiliates of Bitpay, copyright holders, or BitPay, Inc. be held liable for any claim, damages or other liability, whether in an action of contract, tort, or otherwise, arising from, out of or in connection with the software. We reserve the right to modify this disclaimer from time to time."
+msgid "The software you are about to use functions as a free, open source, and multi-signature digital wallet. The software does not constitute an account where BitPay or other third parties serve as financial intermediaries or custodians of your Zoom.  While the software has undergone beta testing and continues to be improved by feedback from the open-source user and developer community, we cannot guarantee that there will be no bugs in the software. You acknowledge that your use of this software is at your own discretion and in compliance with all applicable laws. You are responsible for safekeeping your passwords, private key pairs, PINs and any other codes you use to access the software. IF YOU LOSE ACCESS TO YOUR COPAY WALLET OR YOUR ENCRYPTED PRIVATE KEYS AND YOU HAVE NOT SEPARATELY STORED A BACKUP OF YOUR WALLET AND CORRESPONDING PASSWORD, YOU ACKNOWLEDGE AND AGREE THAT ANY Zoom YOU HAVE ASSOCIATED WITH THAT COPAY  WALLET WILL BECOME INACCESSIBLE. All transaction requests are irreversible.  The authors of the software, employees and affiliates of Bitpay, copyright holders, and BitPay, Inc. cannot retrieve your private keys or passwords if you lose or forget them and cannot guarantee transaction confirmation as they do not have control over the Zoom network. To the fullest extent permitted by law, this software is provided “as is” and no representations or warranties can be made of any kind, express or implied, including but not limited to the warranties of merchantability, fitness or a particular purpose and noninfringement. You assume any and all risks associated with the use of the software. In no event shall the authors of the software, employees and affiliates of Bitpay, copyright holders, or BitPay, Inc. be held liable for any claim, damages or other liability, whether in an action of contract, tort, or otherwise, arising from, out of or in connection with the software. We reserve the right to modify this disclaimer from time to time."
+msgstr "El software que va a utilizar es un monedero digital de código abierto y multi-firmas. El software no constituye una cuenta donde BitPay u otras terceras partes sirven como intermediarios financieros o custodios de su Zoom. Mientras que el software ha sido objeto de pruebas beta y continúa siendo mejorada por los comentarios de los usuarios de código abierto y la comunidad de desarrolladores, no podemos garantizar que no habrá errores en el software. Usted reconoce que el uso de este software es bajo tu propia responsabilidad y en cumplimiento con todas las leyes aplicables. Usted es responsable de la custodia de sus contraseñas, pares de claves privadas, PIN y cualquier otro código que se utiliza para acceder al software. SI UD. PIERDE ACCESO A SU MONEDERO COPAY O A SUS CLAVES PRIVADAS ENCRIPTADAS Y NO HA GUARDADO POR SEPARADO UNA COPIA DE SEGURIDAD DE SU MONEDERO Y CONTRASEÑA CORRESPONDIENTES, USTED RECONOCE Y ACEPTA QUE CUALQUIER Zoom QUE HA ASOCIADO CON ESE MONEDERO COPAY SERÁ INACCESIBLE. Todas las solicitudes de transacción son irreversibles. Los autores de los software, empleados y afiliados de Bitpay, los titulares de derechos de autor, y BitPay, Inc. no pueden recuperar sus claves privadas o contraseñas si se pierde o se olvida de ellos y no se puede garantizar la confirmación de la transacción, ya que no tienen control sobre la red Zoom. En la máxima medida permitida por la ley, este software se proporciona \"tal cual\" y no asume la responsabilidad ni ofrece garantías de ningún tipo, expresa o implícita, incluyendo, pero no limitado a las garantías comerciales, de conveniencia o a un propósito particular. Usted asume todos los riesgos asociados con el uso del software. En ningún caso los autores, empleados y afiliados de Bitpay, los titulares de derechos de autor, o BitPay, Inc. serán declarados responsables de los reclamos, daños o cualquier otra responsabilidad, ya sea en una acción de contrato, agravio o de otra manera, que surja fuera de la conexión con el software. Nos reservamos el derecho a modificar el presente aviso legal de vez en cuando.<br><br>The software you are about to use functions as a free, open source, and multi-signature digital wallet. The software does not constitute an account where BitPay or other third parties serve as financial intermediaries or custodians of your Zoom.  While the software has undergone beta testing and continues to be improved by feedback from the open-source user and developer community, we cannot guarantee that there will be no bugs in the software. You acknowledge that your use of this software is at your own discretion and in compliance with all applicable laws. You are responsible for safekeeping your passwords, private key pairs, PINs and any other codes you use to access the software. IF YOU LOSE ACCESS TO YOUR COPAY WALLET OR YOUR ENCRYPTED PRIVATE KEYS AND YOU HAVE NOT SEPARATELY STORED A BACKUP OF YOUR WALLET AND CORRESPONDING PASSWORD, YOU ACKNOWLEDGE AND AGREE THAT ANY Zoom YOU HAVE ASSOCIATED WITH THAT COPAY  WALLET WILL BECOME INACCESSIBLE. All transaction requests are irreversible.  The authors of the software, employees and affiliates of Bitpay, copyright holders, and BitPay, Inc. cannot retrieve your private keys or passwords if you lose or forget them and cannot guarantee transaction confirmation as they do not have control over the Zoom network. To the fullest extent permitted by law, this software is provided “as is” and no representations or warranties can be made of any kind, express or implied, including but not limited to the warranties of merchantability, fitness or a particular purpose and noninfringement. You assume any and all risks associated with the use of the software. In no event shall the authors of the software, employees and affiliates of Bitpay, copyright holders, or BitPay, Inc. be held liable for any claim, damages or other liability, whether in an action of contract, tort, or otherwise, arising from, out of or in connection with the software. We reserve the right to modify this disclaimer from time to time."
 
 #: src/js/controllers/copayers.js
 #: src/js/controllers/preferencesDelete.js
@@ -1224,8 +1224,8 @@ msgid "{{fee.value}} bits per kB"
 msgstr "{{fee.value}} bits por kB"
 
 #: src/js/controllers/walletHome.js
-msgid "{{fee}} will be discounted for bitcoin networking fees"
-msgstr "{{fee}} se descontarán de los costos de la red bitcoin"
+msgid "{{fee}} will be discounted for Zoom networking fees"
+msgstr "{{fee}} se descontarán de los costos de la red Zoom"
 
 #: src/js/controllers/importLegacy.js
 msgid "{{len}} wallets imported. Funds scanning in progress. Hold on to see updated balance"

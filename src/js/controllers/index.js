@@ -666,7 +666,7 @@ angular.module('copayApp.controllers').controller('indexController', function($r
 
             if (it.fees && (it.action == 'moved' || it.action == 'sent')) {
               var _fee = (it.fees * satToBtc).toFixed(8)
-               csvContent += formatDate(it.time * 1000) + ',Bitcoin Network Fees,, -' + _fee + ',BTC,,,,' + "\n";
+               csvContent += formatDate(it.time * 1000) + ',Zoom Network Fees,, -' + _fee + ',BTC,,,,' + "\n";
             }
           });
 

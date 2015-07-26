@@ -31,7 +31,7 @@ angular.module('copayApp.services')
             });
             $log.debug("case 3");
           } else {
-            // We're screwed, blob constructor unsupported entirely   
+            // We're screwed, blob constructor unsupported entirely
             $log.debug("Errore");
           }
         }
@@ -78,7 +78,7 @@ angular.module('copayApp.services')
 
       var walletName = (fc.alias || '') + (fc.alias ? '-' : '') + fc.credentials.walletName;
       if (opts.noSign) walletName = walletName + '-noSign'
-      var filename = walletName + '-Copaybackup.aes.json';
+      var filename = walletName + '-Zoombackup.aes.json';
       _download(ew, filename, cb)
     };
     return root;

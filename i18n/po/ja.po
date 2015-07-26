@@ -31,7 +31,7 @@ msgid "A backup without its private key will allow the user to see the wallet ba
 msgstr "秘密鍵なしのバックアップでは、残高の確認、取引履歴の確認、送金の提案ができます。しかし、送金の提案を承諾 (署名) できません。"
 
 #: public/views/splash.html
-msgid "A multisignature bitcoin wallet"
+msgid "A multisignature Zoom wallet"
 msgstr "マルチシグネチャビットコインウォレット"
 
 #: public/views/preferences.html
@@ -130,19 +130,19 @@ msgid "Before receiving funds, it is highly recommended you backup your wallet k
 msgstr "ビットコインをもらう前に、このウォレットのバックアップすることを強くおすすめします。"
 
 #: public/views/preferences.html
-msgid "Bitcoin Network Fee Policy"
+msgid "Zoom Network Fee Policy"
 msgstr "ビットコインネットワークの手数料設定"
 
 #: public/views/paymentUri.html
-msgid "Bitcoin URI is NOT valid!"
-msgstr "Bitcoin URI が無効です！"
+msgid "Zoom URI is NOT valid!"
+msgstr "Zoom URI が無効です！"
 
 #: public/views/walletHome.html
-msgid "Bitcoin address"
+msgid "Zoom address"
 msgstr "ビットコインアドレス"
 
 #: public/views/preferencesFee.html
-msgid "Bitcoin transactions may include a fee collected by miners on the network. The higher the fee, the greater the incentive a miner has to include that transaction in a block. The ‘Emergency’ level should only be used when there is a network congestion."
+msgid "Zoom transactions may include a fee collected by miners on the network. The higher the fee, the greater the incentive a miner has to include that transaction in a block. The ‘Emergency’ level should only be used when there is a network congestion."
 msgstr "円滑な送金をしていただくために、ビットコインの送金には少量の手数料を付けることが義務付けられております。この手数料はビットコインのネットワークを運用する人たちに寄付され、より高い手数料であればより優先的にブロックに含まれ、承認されます。「緊急」の設定はネットワーク全体の混雑時にのみご利用下さい。"
 
 #: public/views/modals/txp-details.html
@@ -284,7 +284,7 @@ msgid "Could not join wallet:"
 msgstr "ウォレットに参加できませんでした："
 
 #: src/js/controllers/walletHome.js
-msgid "Could not recognize a valid Bitcoin QR Code"
+msgid "Could not recognize a valid Zoom QR Code"
 msgstr "有効なビットコインQRコードが認識できませんでした。"
 
 #: src/js/controllers/walletHome.js
@@ -628,7 +628,7 @@ msgid "Multisignature wallet"
 msgstr "マルチシグネチャウォレット"
 
 #: public/views/walletHome.html
-msgid "My Bitcoin address"
+msgid "My Zoom address"
 msgstr "私のビットコインアドレス："
 
 #: public/views/paymentUri.html
@@ -1028,12 +1028,12 @@ msgstr "送金の提案は署名されましたが送信できませんでした
 
 #: public/views/backup.html
 msgid "The private key for this wallet is encrypted. Exporting a backup will keep the private key encrypted in the backup archive."
-msgstr "このウォレットの秘密鍵が暗号化されています。バックアップをエクスポートすると秘密鍵が暗号化された状態でバックアップアーカイブとして守られます。"
+msgstr "このウォレットの秘密鍵が暗号化されています。バックアップをエクスポート���ると秘密���が暗号化された状態でバックアップアーカイブとして守られます。"
 
 #: public/views/disclaimer.html
-msgid "The software you are about to use functions as a free, open source, and multi-signature digital wallet. The software does not constitute an account where BitPay or other third parties serve as financial intermediaries or custodians of your bitcoin.  While the software has undergone beta testing and continues to be improved by feedback from the open-source user and developer community, we cannot guarantee that there will be no bugs in the software. You acknowledge that your use of this software is at your own discretion and in compliance with all applicable laws. You are responsible for safekeeping your passwords, private key pairs, PINs and any other codes you use to access the software. IF YOU LOSE ACCESS TO YOUR COPAY WALLET OR YOUR ENCRYPTED PRIVATE KEYS AND YOU HAVE NOT SEPARATELY STORED A BACKUP OF YOUR WALLET AND CORRESPONDING PASSWORD, YOU ACKNOWLEDGE AND AGREE THAT ANY BITCOIN YOU HAVE ASSOCIATED WITH THAT COPAY  WALLET WILL BECOME INACCESSIBLE. All transaction requests are irreversible.  The authors of the software, employees and affiliates of Bitpay, copyright holders, and BitPay, Inc. cannot retrieve your private keys or passwords if you lose or forget them and cannot guarantee transaction confirmation as they do not have control over the Bitcoin network. To the fullest extent permitted by law, this software is provided “as is” and no representations or warranties can be made of any kind, express or implied, including but not limited to the warranties of merchantability, fitness or a particular purpose and noninfringement. You assume any and all risks associated with the use of the software. In no event shall the authors of the software, employees and affiliates of Bitpay, copyright holders, or BitPay, Inc. be held liable for any claim, damages or other liability, whether in an action of contract, tort, or otherwise, arising from, out of or in connection with the software. We reserve the right to modify this disclaimer from time to time."
+msgid "The software you are about to use functions as a free, open source, and multi-signature digital wallet. The software does not constitute an account where BitPay or other third parties serve as financial intermediaries or custodians of your Zoom.  While the software has undergone beta testing and continues to be improved by feedback from the open-source user and developer community, we cannot guarantee that there will be no bugs in the software. You acknowledge that your use of this software is at your own discretion and in compliance with all applicable laws. You are responsible for safekeeping your passwords, private key pairs, PINs and any other codes you use to access the software. IF YOU LOSE ACCESS TO YOUR COPAY WALLET OR YOUR ENCRYPTED PRIVATE KEYS AND YOU HAVE NOT SEPARATELY STORED A BACKUP OF YOUR WALLET AND CORRESPONDING PASSWORD, YOU ACKNOWLEDGE AND AGREE THAT ANY Zoom YOU HAVE ASSOCIATED WITH THAT COPAY  WALLET WILL BECOME INACCESSIBLE. All transaction requests are irreversible.  The authors of the software, employees and affiliates of Bitpay, copyright holders, and BitPay, Inc. cannot retrieve your private keys or passwords if you lose or forget them and cannot guarantee transaction confirmation as they do not have control over the Zoom network. To the fullest extent permitted by law, this software is provided “as is” and no representations or warranties can be made of any kind, express or implied, including but not limited to the warranties of merchantability, fitness or a particular purpose and noninfringement. You assume any and all risks associated with the use of the software. In no event shall the authors of the software, employees and affiliates of Bitpay, copyright holders, or BitPay, Inc. be held liable for any claim, damages or other liability, whether in an action of contract, tort, or otherwise, arising from, out of or in connection with the software. We reserve the right to modify this disclaimer from time to time."
 msgstr "当ソフトウェアは無料のオープンソースプロジェクトで、マルチシグネチャを用いるデジタルウォレットです。BitPay, Inc. 若しくはその他の第三者がアクセス権限を管理する、若しくはデジタル資産の代理保管を行うサービスではありません。このソフトは長いテスト期間を経てリリースしましたが、今後バグや不具合が見つからないという保障はございません。この規約に同意することで、自己責任で利用するものとし、このソフトを用いてお住まいの地域の法令の違反はしないことを意味します。このソフトを正常に利用するために必要なパスワード、秘密鍵、暗証番号などの秘密情報は自己責任で管理するものとします。＊＊＊Copayウォレットとその中にある秘密鍵の情報を紛失してしまい、尚且つバックアップが無い、若しくはそのバックアップを暗号化した際のパスワードが分からないなどの状況に陥ってしまえば、そのウォレットに含まれた全てのビットコインが永久送金不可能となってしまうことを認識し、同意するものとします。＊＊＊署名が完了してしまった取引は取り消しが不可能となります。このソフトの開発者、BitPayの従業員とその関係者、著作権所有者、BitPay, Inc.自体もパスワード・秘密鍵・パスワードなどへのアクセスが不可能なため、教えることがだきません、なお、ビットコインのネットワークへの影響が無いので、取引の取り消しや優先的な承認などはできません。このソフトはそのままの提供となり、このソフトの利用に関わるあらゆる責任とリスクを自己責任で被り、利用するものとし、いかなる損害が発生しても、このソフトの開発者、BitPayの従業員とその関係者、著作権所有者、BitPay, Inc.自体も責任を求めることは無いと誓います。この規約の言葉や表現のニュアンスによる解釈が必要となった場合、規約の元である英語のものを正とします。和訳は簡単な要約と考えて下さい。下記に英語の規約がありますので、英語が理解できる方は是非熟読して下さい。\n\n"
-"The software you are about to use functions as a free, open source, and multi-signature digital wallet. The software does not constitute an account where BitPay or other third parties serve as financial intermediaries or custodians of your bitcoin.  While the software has undergone beta testing and continues to be improved by feedback from the open-source user and developer community, we cannot guarantee that there will be no bugs in the software. You acknowledge that your use of this software is at your own discretion and in compliance with all applicable laws. You are responsible for safekeeping your passwords, private key pairs, PINs and any other codes you use to access the software. IF YOU LOSE ACCESS TO YOUR COPAY WALLET OR YOUR ENCRYPTED PRIVATE KEYS AND YOU HAVE NOT SEPARATELY STORED A BACKUP OF YOUR WALLET AND CORRESPONDING PASSWORD, YOU ACKNOWLEDGE AND AGREE THAT ANY BITCOIN YOU HAVE ASSOCIATED WITH THAT COPAY  WALLET WILL BECOME INACCESSIBLE. All transaction requests are irreversible.  The authors of the software, employees and affiliates of Bitpay, copyright holders, and BitPay, Inc. cannot retrieve your private keys or passwords if you lose or forget them and cannot guarantee transaction confirmation as they do not have control over the Bitcoin network. To the fullest extent permitted by law, this software is provided “as is” and no representations or warranties can be made of any kind, express or implied, including but not limited to the warranties of merchantability, fitness or a particular purpose and noninfringement. You assume any and all risks associated with the use of the software. In no event shall the authors of the software, employees and affiliates of Bitpay, copyright holders, or BitPay, Inc. be held liable for any claim, damages or other liability, whether in an action of contract, tort, or otherwise, arising from, out of or in connection with the software. We reserve the right to modify this disclaimer from time to time."
+"The software you are about to use functions as a free, open source, and multi-signature digital wallet. The software does not constitute an account where BitPay or other third parties serve as financial intermediaries or custodians of your Zoom.  While the software has undergone beta testing and continues to be improved by feedback from the open-source user and developer community, we cannot guarantee that there will be no bugs in the software. You acknowledge that your use of this software is at your own discretion and in compliance with all applicable laws. You are responsible for safekeeping your passwords, private key pairs, PINs and any other codes you use to access the software. IF YOU LOSE ACCESS TO YOUR COPAY WALLET OR YOUR ENCRYPTED PRIVATE KEYS AND YOU HAVE NOT SEPARATELY STORED A BACKUP OF YOUR WALLET AND CORRESPONDING PASSWORD, YOU ACKNOWLEDGE AND AGREE THAT ANY Zoom YOU HAVE ASSOCIATED WITH THAT COPAY  WALLET WILL BECOME INACCESSIBLE. All transaction requests are irreversible.  The authors of the software, employees and affiliates of Bitpay, copyright holders, and BitPay, Inc. cannot retrieve your private keys or passwords if you lose or forget them and cannot guarantee transaction confirmation as they do not have control over the Zoom network. To the fullest extent permitted by law, this software is provided “as is” and no representations or warranties can be made of any kind, express or implied, including but not limited to the warranties of merchantability, fitness or a particular purpose and noninfringement. You assume any and all risks associated with the use of the software. In no event shall the authors of the software, employees and affiliates of Bitpay, copyright holders, or BitPay, Inc. be held liable for any claim, damages or other liability, whether in an action of contract, tort, or otherwise, arising from, out of or in connection with the software. We reserve the right to modify this disclaimer from time to time."
 
 #: src/js/controllers/copayers.js
 #: src/js/controllers/preferencesDelete.js
@@ -1158,7 +1158,7 @@ msgstr "ウォレット名"
 
 #: src/js/controllers/walletHome.js
 msgid "Wallet service timed out. Check your Internet connection and your wallet service configuration."
-msgstr "ウォレットサービスがタイムアウトになりました。インターネットの接続とウォレットサービスの設定を確認して下さい。"
+msgstr "ウォレットサービスがタイムアウトになりました。イ���ターネッ���の接続とウォレットサービスの設定を確認して下さい。"
 
 #: public/views/preferencesDeleteWallet.html
 msgid "Warning!"
@@ -1229,7 +1229,7 @@ msgid "{{fee.value}} bits per kB"
 msgstr "1キロバイト当たり {{fee.value}} bits"
 
 #: src/js/controllers/walletHome.js
-msgid "{{fee}} will be discounted for bitcoin networking fees"
+msgid "{{fee}} will be discounted for Zoom networking fees"
 msgstr "{{fee}} のビットコインネットワーク手数料が差し引かれます。"
 
 #: src/js/controllers/importLegacy.js

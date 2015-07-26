@@ -12,7 +12,7 @@ angular.module('copayApp.controllers').controller('preferencesUnitController',
       //     value: 1,
       //     decimals: 0,
       //     code: 'sat',
-      //   }, 
+      //   },
       {
         name: 'bits (1,000,000 bits = 1BTC)',
         shortName: 'bits',
@@ -30,7 +30,7 @@ angular.module('copayApp.controllers').controller('preferencesUnitController',
       // }
       , {
         name: 'BTC',
-        shortName: 'BTC',
+        shortName: 'ZOOM',
         value: 100000000,
         decimals: 8,
         code: 'btc',
