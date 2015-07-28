@@ -415,7 +415,7 @@ angular.module('copayApp.controllers').controller('indexController', function($r
       var amount = tx.amount * self.satToUnit;
       tx.amountStr = profileService.formatAmount(tx.amount) + ' ' + config.unitName;
       tx.feeStr = profileService.formatAmount(tx.fee) + ' ' + config.unitName;
-      tx.alternativeAmount = rateService.toFiat(tx.amount, config.alternativeIsoCode) ? rateService.toFiat(tx.amount, config.alternativeIsoCode).toFixed(2) : 'N/A';
+      tx.alternativeAmount = rateService.toFiat(tx.amount, config.alternativeIsoCode) ? rateService.toFiat(tx.amount, config.alternativeIsoCode).toFixed(8) : 'N/A';
       tx.alternativeAmountStr = tx.alternativeAmount + " " + config.alternativeIsoCode;
       tx.alternativeIsoCode = config.alternativeIsoCode;
 
@@ -546,9 +546,9 @@ angular.module('copayApp.controllers').controller('indexController', function($r
       var lockedBalanceAlternative = rateService.toFiat(self.lockedBalance * self.unitToSatoshi, self.alternativeIsoCode);
       var alternativeConversionRate = rateService.toFiat(100000000, self.alternativeIsoCode);
 
-      self.totalBalanceAlternative = $filter('noFractionNumber')(totalBalanceAlternative, 2);
-      self.lockedBalanceAlternative = $filter('noFractionNumber')(lockedBalanceAlternative, 2);
-      self.alternativeConversionRate = $filter('noFractionNumber')(alternativeConversionRate, 2);
+      self.totalBalanceAlternative = $filter('noFractionNumber')(totalBalanceAlternative, 8);
+      self.lockedBalanceAlternative = $filter('noFractionNumber')(lockedBalanceAlternative, 8);
+      self.alternativeConversionRate = $filter('noFractionNumber')(alternativeConversionRate, 8);
 
       self.alternativeBalanceAvailable = true;
       self.updatingBalance = false;
@@ -662,7 +662,7 @@ angular.module('copayApp.controllers').controller('indexController', function($r
               _note += ' Moved:' + (it.amount * satToBtc).toFixed(8)
 
             dataString = formatDate(it.time * 1000) + ',' + formatString(it.addressTo) + ',' + _note + ',' + _amount + ',BTC,,,,';
-            csvContent += dataString + "\n"; 
+            csvContent += dataString + "\n";
 
             if (it.fees && (it.action == 'moved' || it.action == 'sent')) {
               var _fee = (it.fees * satToBtc).toFixed(8)

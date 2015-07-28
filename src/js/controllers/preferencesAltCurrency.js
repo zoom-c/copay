@@ -20,9 +20,9 @@ angular.module('copayApp.controllers').controller('preferencesAltCurrencyControl
     var self = this;
     rateService.whenAvailable(function() {
       self.alternativeOpts = rateService.listAlternatives();
-      lodash.remove(self.alternativeOpts, function(n) {
-        return n.isoCode == 'BTC';
-      });
+      // lodash.remove(self.alternativeOpts, function(n) {
+      //   return n.isoCode == 'BTC';
+      // });
 
       for (var ii in self.alternativeOpts) {
         if (config.wallet.settings.alternativeIsoCode === self.alternativeOpts[ii].isoCode) {
