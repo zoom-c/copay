@@ -15,7 +15,7 @@
   ],
   "main": "public/index.html",
   "window": {
-    "title": "Copay - A multisignature wallet",
+    "title": "Zoom - A multisignature wallet",
     "icon": "./public/img/icons/icon-256.png",
     "toolbar": false,
     "show": true,
@@ -25,9 +25,7 @@
     "width": 400,
     "height": 600,
     "position": "center",
-    "fullscreen": false,
-    "title": "Zoom Wallet",
-    "icon": "public/img/icons/icon.png"
+    "fullscreen": false
   },
   "webkit": {
     "page-cache": false,
