@@ -20,8 +20,8 @@ webkitbuilds/*
 !webkitbuilds/.desktop
 
 # chrome extensions
-browser-extensions/chrome/copay-chrome-extension
-browser-extensions/chrome/copay-chrome-extension.zip
+browser-extensions/chrome/zoom-chrome-extension
+browser-extensions/chrome/zoom-chrome-extension.zip
 
 # Logs
 logs
