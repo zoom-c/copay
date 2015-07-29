@@ -1,23 +1,19 @@
-<img src="https://raw.githubusercontent.com/bitpay/copay/master/public/img/logo.png" alt="Copay" width="300">
+<img src="https://raw.githubusercontent.com/zoom-c/copay/master/public/img/logo.png" alt="Zoom" width="300">
 
-[![Build Status](https://secure.travis-ci.org/bitpay/copay.svg)](http://travis-ci.org/bitpay/copay) 
-[![Crowdin](https://d322cqt584bo4o.cloudfront.net/copay/localized.png)](https://crowdin.com/project/copay)
+Zoom is up-to-date fork of the popular open-source Copay wallet from Bitpay, Inc.
 
-Copay is an easy-to-use, open-source, multiplatform, multisignature, secure bitcoin wallet platform for both  individuals and companies.  Copay uses [Bitcore Wallet Service](https://github.com/bitpay/bitcore-wallet-service) (BWS) for peer synchronization and bitcore network interfacing. 
-
-Binary versions of Copay are available for download at [Copay.io](https://copay.io).
+Zoom Copay is an easy-to-use, open-source, multiplatform, multisignature, secure bitcoin wallet platform for both  individuals and companies.  Copay uses [Bitcore Wallet Service](https://github.com/zoom-c/bitcore-wallet-service) (BWS) for peer synchronization and bitcore network interfacing.
 
 ## Main Features
 
-- Multiple wallet creation and management in-app 
+- Multiple wallet creation and management in-app
 - Intuitive, multisignature security for personal or shared wallets
 - Easy spending proposal flow for shared wallets and group payments
-- Hierarchical deterministic (HD) address generation and wallet backups 
+- Hierarchical deterministic (HD) address generation and wallet backups
 - Device-based security: all private keys are stored locally, not in the cloud
-- Support for Bitcoin testnet wallets
 - Synchronous access across all major mobile and desktop platforms
-- Payment protocol (BIP70-BIP73) support: easily-identifiable payment requests and verifiable, secure bitcoin payments
-- Support for 150+ currency pricing options and unit denomination in BTC or bits
+- Payment protocol (BIP70-BIP73) support: easily-identifiable payment requests and verifiable, secure Zoom payments
+- Support for 150+ currency pricing options and unit denomination in ZOOM or bits
 - Email notifications for payments and transfers
 - Customizable wallet naming and background colors
 - Multiple languages supported
@@ -26,7 +22,7 @@ Binary versions of Copay are available for download at [Copay.io](https://copay.
 ## Installation
 
 ```sh
-git clone https://github.com/bitpay/copay.git
+git clone https://github.com/zoom-c/copay.git
 cd copay
 ```
 
@@ -69,7 +65,7 @@ Then visit `localhost:3000` in your browser.
 
 ### Desktop versions (Windows, OS X, Linux)
 
-Copay uses NW.js (also know as node-webkit) for its desktop version. NW.js an app runtime based on `Chromium` and `node.js`. 
+Copay uses NW.js (also know as node-webkit) for its desktop version. NW.js an app runtime based on `Chromium` and `node.js`.
 
 - Install NW.js in your system from [nwjs.io](http://nwjs.io/)
 - Run `grunt desktop` (*)
@@ -98,7 +94,7 @@ For more information regarding how addresses are generated using this procedure,
 
 ## Bitcore Wallet Service
 
-Copay depends on [Bitcore Wallet Service](https://github.com/bitpay/bitcore-wallet-service) (BWS) for blockchain information, networking and copayer synchronization.  A BWS instance can be setup and operational within minutes or you can use a public instance like `https://bws.bitpay.com`.  Switching between BWS instances is very simple and can be done with a click from within Copay.  BWS also allows Copay to interoperate with others wallet like [Bitcore Wallet CLI] (https://github.com/bitpay/bitcore-wallet).
+Copay depends on [Bitcore Wallet Service](https://github.com/zoom-c/bitcore-wallet-service) (BWS) for blockchain information, networking and copayer synchronization.  A BWS instance can be setup and operational within minutes or you can use a public instance like `https://bws.bitpay.com`.  Switching between BWS instances is very simple and can be done with a click from within Copay.  BWS also allows Copay to interoperate with others wallet like [Bitcore Wallet CLI] (https://github.com/zoom-c/bitcore-wallet).
 
 ## Translations
 Copay uses standard gettext PO files for translations and [Crowdin](https://crowdin.com/project/copay) as front-end for translators.
