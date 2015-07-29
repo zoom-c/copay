@@ -18,7 +18,7 @@ checkOK() {
 
 # Configs
 BUILDDIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
-APPDIR="$BUILDDIR/zoom-chrome-chrome-extension"
+APPDIR="$BUILDDIR/zoom-chrome-extension"
 ZIPFILE="zoom-chrome-extension.zip"
 VERSION=`cut -d '"' -f2 $BUILDDIR/../../src/js/version.js|head -n 1`
 
