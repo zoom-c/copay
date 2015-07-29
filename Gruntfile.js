@@ -11,10 +11,12 @@ module.exports = function(grunt) {
         command: 'rm -Rf bower_components node_modules'
       },
       osx64: {
-        command: 'hdiutil create  -megabytes 150 -volname Copay -srcfolder webkitbuilds/copay/osx64/copay.app/ -ov -format UDZO webkitbuilds/copay-osx64.dmg'
+        command: 'genisoimage -no-cache-inodes -D -l -probe -V "Zoom" -no-pad -r -apple -o webkitbuilds/zoom-osx64.dmg webkitbuilds/zoom/osx64/zoom.app/'
+        //command: 'hdiutil create  -megabytes 150 -volname Zoom -srcfolder webkitbuilds/zoom/osx64/zoom.app/ -ov -format UDZO webkitbuilds/zoom-osx64.dmg'
       },
       osx32: {
-        command: 'hdiutil create  -megabytes 150 -volname Copay -srcfolder webkitbuilds/copay/osx32/copay.app/ -ov -format UDZO webkitbuilds/copay-osx32.dmg'
+        command: 'genisoimage -no-cache-inodes -D -l -probe -V "Zoom" -no-pad -r -apple -o webkitbuilds/zoom-osx32.dmg webkitbuilds/zoom/osx32/zoom.app/'
+        //command: 'hdiutil create  -megabytes 150 -volname Zoom -srcfolder webkitbuilds/zoom/osx32/zoom.app/ -ov -format UDZO webkitbuilds/zoom-osx32.dmg'
       }
     },
     watch: {
@@ -110,8 +112,8 @@ module.exports = function(grunt) {
       pot: {
         files: {
           'i18n/po/template.pot': [
-            'public/index.html', 
-            'public/views/*.html', 
+            'public/index.html',
+            'public/views/*.html',
             'public/views/**/*.html',
             'src/js/routes.js',
             'src/js/services/*.js',
@@ -139,8 +141,8 @@ module.exports = function(grunt) {
       },
       linux: {
         files: [
-          {expand: true, cwd: 'webkitbuilds/',src: ['.desktop', 'favicon.ico'],dest: 'webkitbuilds/copay/linux32/', flatten: true, filter: 'isFile' },
-          {expand: true, cwd: 'webkitbuilds/',src: ['.desktop', 'favicon.ico'],dest: 'webkitbuilds/copay/linux64/', flatten: true, filter: 'isFile' },
+          {expand: true, cwd: 'webkitbuilds/',src: ['.desktop', 'favicon.ico'],dest: 'webkitbuilds/zoom/linux32/', flatten: true, filter: 'isFile' },
+          {expand: true, cwd: 'webkitbuilds/',src: ['.desktop', 'favicon.ico'],dest: 'webkitbuilds/zoom/linux64/', flatten: true, filter: 'isFile' },
         ],
       }
     },
@@ -175,21 +177,21 @@ module.exports = function(grunt) {
     compress: {
       linux32: {
         options: {
-          archive: './webkitbuilds/copay-linux32.zip'
+          archive: './webkitbuilds/zoom-linux32.zip'
         },
         expand: true,
-        cwd: './webkitbuilds/copay/linux32/',
+        cwd: './webkitbuilds/zoom/linux32/',
         src: ['**/*'],
-        dest: 'copay-linux32/'
+        dest: 'zoom-linux32/'
       },
       linux64: {
         options: {
-          archive: './webkitbuilds/copay-linux64.zip'
+          archive: './webkitbuilds/zoom-linux64.zip'
         },
         expand: true,
-        cwd: './webkitbuilds/copay/linux64/',
+        cwd: './webkitbuilds/zoom/linux64/',
         src: ['**/*'],
-        dest: 'copay-linux64/'
+        dest: 'zoom-linux64/'
       }
     }
   });

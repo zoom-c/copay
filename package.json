@@ -1,13 +1,16 @@
 {
-  "name": "copay",
+  "name": "zoom",
   "description": "A multisignature wallet",
-  "author": "BitPay",
-  "version": "1.1.2",
+  "author": "Zoom Developers",
+  "version": "0.0.1",
   "keywords": [
     "wallet",
     "copay",
     "multisignature",
+    "zoom",
     "bitcoin",
+    "altcoin",
+    "cryptocurrency",
     "bitcore"
   ],
   "main": "public/index.html",
@@ -20,22 +23,24 @@
     "width": 400,
     "height": 600,
     "position": "center",
-    "fullscreen": false
+    "fullscreen": false,
+    "title": "Zoom Wallet",
+    "icon": "public/img/icons/icon.png"
   },
   "webkit": {
     "page-cache": false,
     "java": false,
     "plugin": false
   },
-  "id": "jid1-x7bV5evAaI1P9Q",
-  "homepage": "https://github.com/bitpay/copay",
+  "id": "com.zoom.copay",
+  "homepage": "https://github.com/zoom-c/copay",
   "license": "MIT",
   "repository": {
-    "url": "git://github.com/bitpay/copay.git",
+    "url": "git://github.com/zoom-c/copay.git",
     "type": "git"
   },
   "bugs": {
-    "url": "https://github.com/bitpay/copay/issues"
+    "url": "https://github.com/zoom-c/copay/issues"
   },
   "dependencies": {
     "express": "^4.11.2",

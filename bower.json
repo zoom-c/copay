@@ -1,9 +1,13 @@
 {
-  "name": "copay",
+  "name": "zoom",
   "keywords": [
-    "copay",
     "wallet",
+    "copay",
     "multisignature",
+    "zoom",
+    "bitcoin",
+    "altcoin",
+    "cryptocurrency",
     "bitcore"
   ],
   "dependencies": {

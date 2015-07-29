@@ -1,9 +1,9 @@
 VERSION=`cut -d '"' -f2 $BUILDDIR/../version.js`
 
 sign:
-	gpg -u 1112CFA1 --output browser-extensions/chrome/copay-chrome-extension.zip.sig --detach-sig browser-extensions/chrome/copay-chrome-extension.zip
-verify: 
-	gpg --verify browser-extensions/chrome/copay-chrome-extension.zip.sig browser-extensions/chrome/copay-chrome-extension.zip
+	gpg -u 1112CFA1 --output browser-extensions/chrome/zoom-chrome-extension.zip.sig --detach-sig browser-extensions/chrome/zoom-chrome-extension.zip
+verify:
+	gpg --verify browser-extensions/chrome/zoom-chrome-extension.zip.sig browser-extensions/chrome/zoom-chrome-extension.zip
 
 chrome:
 	browser-extensions/chrome/build.sh
@@ -51,4 +51,4 @@ android-debug:
 
 android-debug-fast:
 	cordova/build.sh ANDROID --dbgjs
-	cd cordova/project && cordova run android	
+	cd cordova/project && cordova run android
