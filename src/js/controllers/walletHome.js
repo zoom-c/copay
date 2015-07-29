@@ -695,7 +695,7 @@ angular.module('copayApp.controllers').controller('walletHomeController', functi
   this.submitForm = function() {
     var fc = profileService.focusedClient;
     var unitToSat = this.unitToSatoshi;
-    
+
     if (isCordova && this.isWindowsPhoneApp) {
       this.hideAddress = false;
       this.hideAmount = false;
@@ -971,7 +971,7 @@ angular.module('copayApp.controllers').controller('walletHomeController', functi
   };
 
 
-  // History 
+  // History
 
   function strip(number) {
     return (parseFloat(number.toPrecision(12)));
@@ -1063,15 +1063,15 @@ angular.module('copayApp.controllers').controller('walletHomeController', functi
 
   this.sendAll = function(amount, feeStr) {
     var self = this;
-    var msg = gettextCatalog.getString("{{fee}} will be discounted for bitcoin networking fees", {
+    var msg = gettextCatalog.getString("{{fee}} will be discounted for Zoom networking fees", {
       fee: feeStr
     });
 
     this.confirmDialog(msg, function(confirmed){
-      if (confirmed) 
+      if (confirmed)
         self._doSendAll(amount);
     });
-  }; 
+  };
 
   /* Start setup */
 
