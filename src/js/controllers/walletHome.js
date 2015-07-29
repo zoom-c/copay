@@ -89,6 +89,10 @@ angular.module('copayApp.controllers').controller('walletHomeController', functi
     $rootScope.$digest();
   });
 
+  var accept_msg = gettextCatalog.getString('Accept');
+  var cancel_msg = gettextCatalog.getString('Cancel');
+  var confirm_msg = gettextCatalog.getString('Confirm');
+
   // walletHome
 
 
@@ -364,6 +368,10 @@ angular.module('copayApp.controllers').controller('walletHomeController', functi
         self.copyAddress(addr);
       };
 
+      $scope.toggleOutputDetails = function(summary) {
+        summary.showDetails = !summary.showDetails;
+      };
+
       $scope.cancel = function() {
         $modalInstance.dismiss('cancel');
       };
@@ -427,7 +435,7 @@ angular.module('copayApp.controllers').controller('walletHomeController', functi
   this.copyAddress = function(addr) {
     if (isCordova) {
       window.cordova.plugins.clipboard.copy(addr);
-      window.plugins.toast.showShortCenter('Copied to clipboard');
+      window.plugins.toast.showShortCenter(gettextCatalog.getString('Copied to clipboard'));
     } else if (nodeWebkit.isDefined()) {
       nodeWebkit.writeToClipboard(addr);
     }
@@ -1049,6 +1057,10 @@ angular.module('copayApp.controllers').controller('walletHomeController', functi
       $scope.cancel = function() {
         $modalInstance.dismiss('cancel');
       };
+
+      $scope.toggleOutputDetails = function(summary) {
+        summary.showDetails = !summary.showDetails;
+      };
     };
 
     var modalInstance = $modal.open({
@@ -1072,7 +1084,7 @@ angular.module('copayApp.controllers').controller('walletHomeController', functi
   };
 
   this.confirmDialog = function(msg, cb) {
-    if (isCordova) {
+    if (isCordova) { 
       navigator.notification.confirm(
         msg,
         function(buttonIndex) {
@@ -1083,7 +1095,8 @@ angular.module('copayApp.controllers').controller('walletHomeController', functi
           } else {
             return cb(false);
           }
-        }
+        },
+        confirm_msg, [accept_msg, cancel_msg]
       );
     } else if (isChromeApp) {
       // No feedback, alert/confirm not supported.
