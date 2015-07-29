@@ -51,4 +51,4 @@ android-debug:
 
 android-debug-fast:
 	cordova/build.sh ANDROID --dbgjs
-	cd cordova/project && cordova run android
+	cd cordova/project && cordova build android

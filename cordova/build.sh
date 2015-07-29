@@ -56,7 +56,7 @@ echo "Project directory is $PROJECT"
 if [ ! -d $PROJECT ]; then
   cd $BUILDDIR
   echo "${OpenColor}${Green}* Creating project... ${CloseColor}"
-  cordova create project ua.zoom.zoompay Zoom
+  cordova create project com.zoom.copay Zoom
   checkOK
 
   cd $PROJECT
