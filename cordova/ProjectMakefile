@@ -5,27 +5,25 @@ plugins:
 	@echo "Intalling cordova plugins"
 	cordova plugin add https://github.com/Initsogar/cordova-webintent.git
 	cordova plugin add https://github.com/wildabeast/BarcodeScanner.git
-	cordova plugin add org.apache.cordova.splashscreen
-	cordova plugin add org.apache.cordova.statusbar
-	cordova plugin add https://github.com/EddyVerbruggen/LaunchMyApp-PhoneGap-Plugin.git --variable URL_SCHEME=bitcoin
-	cordova plugin add org.apache.cordova.inappbrowser
+	cordova plugin add cordova-plugin-splashscreen
+	cordova plugin add cordova-plugin-statusbar
+	cordova plugin add https://github.com/EddyVerbruggen/LaunchMyApp-PhoneGap-Plugin.git --variable URL_SCHEME=zoom
+	cordova plugin add cordova-plugin-inappbrowser
 
 android:
 	cordova platforms add android
 
 wp8:
-	cordova platforms add wp8 
+	cordova platforms add wp8
 
 ios:
 	cordova platforms add ios
 
-build-ios: 
+build-ios:
 	cordova build ios
 
-run-android: 
+run-android:
 	cordova run android
 
-release-android: 
+release-android:
 	cordova build android --release
-
-
