@@ -1,4 +1,4 @@
-![](https://github.com/zoom-c/copay/blob/master/images/public/img/logo.png)
+<img src="https://raw.githubusercontent.com/zoom-c/copay/master/public/img/logo.png" alt="Zoom" width="300">
 
 [![Coverage Status](https://coveralls.io/repos/zoom-c/copay/badge.svg?branch=master&service=github)](https://coveralls.io/github/zoom-c/copay?branch=master)
 
