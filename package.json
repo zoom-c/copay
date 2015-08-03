@@ -2,7 +2,7 @@
   "name": "zoom",
   "description": "A multisignature wallet",
   "author": "Zoom Developers",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "keywords": [
     "wallet",
     "copay",

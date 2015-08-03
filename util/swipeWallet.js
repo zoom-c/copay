@@ -20,7 +20,7 @@ function list(val) {
 }
 
 program
-  .version('0.0.1')
+  .version('0.0.2')
   .usage('-d n2kMqQ8Si9GndzQ6FrJxcwHMKacK2rCEpK -n 2 -k tprv8ZgxMBicQKsPem5BuuDT6xY9etUC2RohpUoyzoa1MEkkZyAHhszaHPZTmgDheN31hSP1r6bRwpj2JC66r1CPpftwaRrhz')
   .option('-d, --destination <n>', 'Destination Address')
   .option('-n, --required <n>', 'Required number of signatures', parseInt)

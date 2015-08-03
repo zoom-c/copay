@@ -264,7 +264,7 @@ describe("Unit: Controllers", function() {
         };
 
         c.networkName = walletConfig.networkName;
-        c.version = '0.0.1';
+        c.version = '0.0.2';
 
         c.generateAddress = sinon.stub().returns({});
 

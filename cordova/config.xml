@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="com.zoom.copay"
-  version="0.0.1"
-  android-versionCode="39"
-  ios-CFBundleVersion="0.0.1">
+  version="0.0.2"
+  android-versionCode="40"
+  ios-CFBundleVersion="0.0.2">
     <name>Zoom</name>
     <description>
       A secure Zoom wallet for friends and companies.
